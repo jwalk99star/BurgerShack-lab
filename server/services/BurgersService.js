@@ -5,6 +5,7 @@ class BurgersService {
   getBurgers() {
     return FakeDb.burgers
   }
+
   createBurger(burgerData) {
     burgerData.id = (Math.floor(Math.random() * 100))
 
