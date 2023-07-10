@@ -8,9 +8,6 @@ export class BurgersController extends BaseController {
     .get('', this.getBurgers)
   }
 
-
-
-
   
   async getBurgers(req, res, next) {
     try {
