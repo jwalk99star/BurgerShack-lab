@@ -1,6 +1,6 @@
 class BurgersService {
   getBurgers() {
-    return burgers
+    // return burgers
   }
 }
 
